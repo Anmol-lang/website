@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vent Us</title>
+</head> 
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="img/logo_transparent1.png" type="image/x-icon">
+
+
+
+
+<body>
+    <div class="logo">
+        <img src="img/logo_transparent1.png" alt="logo">
+    </div>
+    <div class="container">
+        
+        <div class="messagebox">
+            <form action="chatbox.php" method="post">
+                <textarea id="textinput" name="comments" rows="1" cols="50" placeholder="Tell us how you're feeling"></textarea>
+                <button type="submit" id="send" onclick="window.location='chatbox.html';">Send</button>
+               
+            </form>
+        </div>
+    </div>    
+    <script src="script.js"></script>    
+
+</body>
+</html>

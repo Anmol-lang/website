@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vent us</title>
+</head>
+<body>
+    <form action="chatbox.php" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" placeholder="Enter your Name"><br>
+        <label for="Email">Email:</label><br>
+        <input type="email" placeholder="Enter your Email"><br>
+        <label for="Age">Age:</label><br>
+        <input type="number" placeholder="Enter your Phone Number"><br>
+        <label for="Gender">Gender:</label><br>
+        <select id="gender" name="gender" >
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option></select><br>
+        <label for="comments">Comments:</label><br>
+        <textarea name="comments" id="com" cols="30" rows="10" placeholder="Any additional information you would like to share with us"></textarea>
+        <input type="submit" onclick="window.location='Thankyou.html';"  value="submit">
+    </form>
+
+</body>
+</html>

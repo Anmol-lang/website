@@ -1,0 +1,45 @@
+h1{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    
+}
+img {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 80px;
+    align-items: end;
+    max-width: 50%;
+    
+}
+
+.messagebox{
+   margin-top: 35%;
+   margin-left: 30px;
+}
+
+
+input[type="text"] {
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 80%;
+    min-height: 90%;
+    resize: none;
+    
+}
+
+button {
+    padding: 5px 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
